@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Gallery - Mahawilacchiya National School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="School Logo" onerror="this.src='https://via.placeholder.com/50x50?text=MNS'">
+                <h1>Mahawilacchiya<br><span>National School</span></h1>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Gallery</h1>
+            <p>Moments that define our journey</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="campus">Campus</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="academic">Academic</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="campus">
+                    <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="School Building">
+                    <div class="gallery-overlay">Main Building</div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Graduation">
+                    <div class="gallery-overlay">Graduation Ceremony 2024</div>
+                </div>
+                <div class="gallery-item" data-category="sports">
+                    <img src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sports Day">
+                    <div class="gallery-overlay">Annual Sports Meet</div>
+                </div>
+                <div class="gallery-item" data-category="academic">
+                    <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Science Lab">
+                    <div class="gallery-overlay">Science Lab Session</div>
+                </div>
+                <div class="gallery-item" data-category="campus">
+                    <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Library">
+                    <div class="gallery-overlay">School Library</div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cultural Event">
+                    <div class="gallery-overlay">Cultural Festival</div>
+                </div>
+                <div class="gallery-item" data-category="sports">
+                    <img src="https://images.unsplash.com/photo-1459865264687-595d652de67e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cricket Team">
+                    <div class="gallery-overlay">School Cricket Team</div>
+                </div>
+                <div class="gallery-item" data-category="academic">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Computer Lab">
+                    <div class="gallery-overlay">Computer Lab</div>
+                </div>
+                <div class="gallery-item" data-category="campus">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Playground">
+                    <div class="gallery-overlay">School Grounds</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Mahawilacchiya National School</h3>
+                    <p>Mahawilacchiya, Sri Lanka</p>
+                    <p><i class="fas fa-phone"></i> +94 71 234 5678</p>
+                    <p><i class="fas fa-envelope"></i> info@mawilaschool.lk</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mahawilacchiya National School. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
